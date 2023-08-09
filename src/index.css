@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+html{
+/*  background-color: #101010;*/
+    font-family: poppins;
+    color: white;
+    background-color: #34495e;
+/*    background-image: linear-gradient(to right,#000428, #004e92); */
+    height: 100%;
+}
+
+/*
+body{
+     height: 100%;
+}
+*/

@@ -1,0 +1,230 @@
+.display{
+	display: none;
+}
+
+.header{
+	font-family: poppins;
+	display: flex;
+	flex-direction: column;
+	position:relative;
+	justify-content: space-between;
+	gap:20%;
+	align-items: center;
+/*	background-color: black;
+/*   background-image: linear-gradient(to right,#2193b0, #6dd5ed); */
+	padding: 8px 6%;
+	font-weight: bolder;
+}
+
+.left_links{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width:100%;
+}
+
+.navigation .nav_btn{
+	display: flex;
+/*	visibility: visible;*/
+	flex-direction: row;
+	align-items: center;
+	gap:1.7rem;
+	min-height: 2.5rem;
+/*	width: 10%;*/
+}
+
+.header_link{
+	display: block;
+	font-size: 1rem;
+	color:white;
+	text-decoration: none;
+}
+
+.active{
+	color: yellow;
+	text-decoration: underline;
+}
+
+.header_link:hover{
+	color:yellow;
+}
+
+.burgur ion-icon{
+	font-size: 2rem;
+	display: none;
+}
+
+
+.logo{
+  text-decoration: none;
+} 
+
+.logo b{
+	color:yellow;
+}
+
+.logo span{
+/*	margin:0 15px;*/
+	margin-right: 30px;
+	width:56px;
+	height:46px;
+	font-weight: bolder;
+	font-size: 2rem;
+	text-decoration: none;
+	color:white;
+}
+
+.right_link{
+/*   margin-right: 10%;*/
+   display: flex;
+   justify-content: center;
+   background-color: #219adf;
+   border-radius: 25px;
+   width:100%;
+}
+
+.right_link ion-icon{
+   padding:5px;
+   margin-left:5px ;
+   color:yellow;
+   font-size: 25px;
+}
+
+.right_link input{
+	width: 100%;
+   padding: 10px 5px;
+   outline:none;
+   border:none;
+   border-top-right-radius: 25px;
+   border-bottom-right-radius: 25px;
+
+}
+
+.btn_container{
+	display:block;
+	margin:auto;
+}
+
+.toggle_btn{
+	display: none;
+	background-color: yellow;
+	border-radius: 15px;
+	outline:none;
+	padding:5px 10px;
+	border:none;
+	color:black;
+}
+
+
+.search_results{
+	margin: 0 6%;
+	width: 80%;
+/*	padding: 0 6%;*/
+	margin-top: 10px;
+	border:black;
+	position: absolute;
+	top: 90%;
+	z-index: 100;
+	background-color:#34495e;
+	bottom:0;
+}
+
+.error_result{
+	height:10vh;
+}
+
+.more_results{
+	display: flex;
+	justify-content: center;
+	text-decoration: none;
+	background-color: yellow;
+	padding:10px;
+	color:black;
+}
+
+
+
+/*Media Queries*/
+@media screen and (max-width:900px) {
+
+	.header{
+		display: block;
+	}
+	.right_link{
+   border-radius: 0px;
+   }
+   .right_link input{
+
+	width: 100%;
+   padding: 10px 5px;
+   outline:none;
+   border:none;
+   border-radius: 0px;
+   }
+
+   .burgur ion-icon{
+	display: block;
+	position: absolute;
+	right:0;
+	top:0;
+	margin: 2% 6%;
+/*	font-size: 2.5rem;*/
+   }
+
+
+   .navigation {
+   	/*position: relative;
+   	right:100%;*/
+   	width:60%;
+   	height:100%;
+   	position: fixed;
+   	text-align: center;
+   	top:0;
+   	right:0;
+   	display: none;
+   	background-color: #34495e;
+   	padding:2rem;
+   	z-index:1000;
+		box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+		transition: all .3s;
+   }
+
+   .navigation .nav_btn{
+   	display: block;
+   }
+
+   .navigation .header_link{
+   	margin-bottom: 10px;
+   }
+
+  .btn_container{
+   	margin-bottom: 5%;
+   	font-weight: bold;
+
+   }
+
+   .toggle_btn{
+   	display: block;
+   	margin: auto;
+   	font-weight: bold;
+   	text-align: center;
+   
+   }
+
+   .toggle_btn ion-icon{
+   	color: black;
+   }
+
+   .display{
+	display: block;
+	}
+
+
+}
+
+
+@media screen and (min-width:900px){
+	.navigation{
+		display: block;
+	}
+}

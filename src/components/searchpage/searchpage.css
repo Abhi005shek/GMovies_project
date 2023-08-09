@@ -1,0 +1,18 @@
+.Searchpage{
+	margin-top: 5%;
+	padding:0 6%;
+	color: white;
+	min-height: 100vh;
+}
+
+.query{
+	font-weight: bolder;
+	font-size: 2rem;
+}
+
+.searchresults{
+	display:flex;
+	flex-wrap: wrap;
+	padding:0 6%;
+	margin-bottom: 5%;
+}

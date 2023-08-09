@@ -1,0 +1,27 @@
+.results{
+	display: flex;
+	height:15vh;
+	padding: 10px;
+	width:100%;
+	color: white;
+	border-bottom: 1px solid black;
+	gap:10px;
+	cursor: pointer;
+	background-color:#34495e;
+/*	margin: 0 6%;*/
+}
+
+.result_img{
+	height:100%;
+/*	width: 100%;*/
+	background-color:black;
+}
+
+.result_img img{
+	width:100%;
+	height:100%;
+}
+
+.result_movie{
+	text-decoration: none;
+}
