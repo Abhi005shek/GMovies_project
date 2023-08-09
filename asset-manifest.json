@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/GMovies_project/static/css/main.c2716b14.css",
+    "main.js": "/GMovies_project/static/js/main.14a242ca.js",
+    "static/media/image.jpg": "/GMovies_project/static/media/image.41eca021b21f7db2cc4a.jpg",
+    "index.html": "/GMovies_project/index.html",
+    "main.c2716b14.css.map": "/GMovies_project/static/css/main.c2716b14.css.map",
+    "main.14a242ca.js.map": "/GMovies_project/static/js/main.14a242ca.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2716b14.css",
+    "static/js/main.14a242ca.js"
+  ]
+}
